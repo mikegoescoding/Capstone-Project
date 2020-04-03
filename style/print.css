@@ -1,0 +1,17 @@
+.print-items-container {
+	max-width: 99%;
+	width: 99vw;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.print-item img {
+	width: 50vw;
+	object-fit: cover;
+}
+
+.print-item {
+	margin-bottom: 20px;
+}
